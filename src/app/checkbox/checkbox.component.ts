@@ -53,6 +53,7 @@ export class CheckboxComponent implements OnInit {
       return item.isSelected == true;
       
     })
+
   }
 
   checkUncheckAll(isSelected: boolean) {
