@@ -14,12 +14,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RegisterUserComponent } from './register-user/register-user.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterUserComponent,
-    CheckboxComponent
+    CheckboxComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
