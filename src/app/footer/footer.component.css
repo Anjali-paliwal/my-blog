@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.footer{
+    padding: 20px;
+    height: 70px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+

@@ -1,0 +1,22 @@
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-betweeen;
+}
+
+.mainContent{
+    border: 1px solid black;
+  flex: 80%;
+  height:500px;   
+}
+
+.sideContent{
+   
+    border: 1px solid black;
+    flex: 20%;
+    height: 500px;
+}
+* {
+    box-sizing: border-box;
+}

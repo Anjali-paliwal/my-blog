@@ -1,33 +1,18 @@
 <div class = "parent-div">
-<div class = "header">
-    <span class="title">
-        <h1>Blog Site</h1>
-    </span>
-    <span class="welcome">    
-        <h3>Welcome Back!</h3>
-    </span>
-    <span class = "topnav-right">
-        <a mat-button href="/login">Login / SignUp</a>
-    </span>
-</div>
-
-<div class = "navbar">
-    <a mat-button href="#">Home</a>
-    <a mat-button href="#">About</a>
-    <a mat-button href="#">Categories</a>
-    <a mat-button href="#">Contact</a>
-</div>
-
-<div class="row">
-    <div class="sideContent">
+    <div class = "header">
+        <app-header></app-header>
     </div>
-    <div class="mainContent">
+
+    <div class = "navbar">
+        <app-nav></app-nav>
+    </div>
+
+    <div class="row">
         <router-outlet></router-outlet>
     </div>
-    
-</div>
 
-<div class="footer">
-    <h2>Footer</h2>
-</div>
+    <div class="footer">
+        <app-footer></app-footer>
+        <!-- <h2>Footer</h2> -->
+    </div>
 </div>

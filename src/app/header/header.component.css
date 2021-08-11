@@ -1,0 +1,25 @@
+
+.header{
+    width: auto;
+    height: 70px;
+    
+    background-color: whitesmoke;
+}
+
+.topnav-right{
+    position:absolute;
+    right: 25px;
+    top:20px;
+}
+
+.welcome{
+    position:absolute;
+    right:180px;
+    top:20px;
+}
+
+.title{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
