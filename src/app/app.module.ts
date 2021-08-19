@@ -19,6 +19,7 @@ import { NavComponent } from './nav/nav.component';
 import { HeaderComponent } from './header/header.component';
 import { SideMainContentComponent } from './side-main-content/side-main-content.component';
 import { FooterComponent } from './footer/footer.component';
+import { RandomIdComponent } from './random-id/random-id.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { FooterComponent } from './footer/footer.component';
     NavComponent,
     HeaderComponent,
     SideMainContentComponent,
-    FooterComponent
+    FooterComponent,
+    RandomIdComponent
   ],
   imports: [
     BrowserModule,
