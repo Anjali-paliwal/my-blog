@@ -20,7 +20,7 @@ export class RandomIdComponent implements OnInit {
     for(var i = 0; i < 10; i++){
       result += characters.charAt(Math.floor(Math.random() *charLength ));
     }
-    result += event.timeStamp;
+    result += Math.floor(event.timeStamp);
     
     console.log("Id is "+result);
     //document.getElementById("demo").innerHTML = result;

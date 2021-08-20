@@ -2,19 +2,20 @@
 .row{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-betweeen;
+    justify-content: space-around;
 }
 
 .mainContent{
-    border: 1px solid black;
-  flex: 80%;
+  border: 1px solid #000000;
+  /* flex: 80%; */
   height:500px;   
+  width: calc(100% - 300px);
 }
 
 .sideContent{
-   
+    width: 250px;
     border: 1px solid black;
-    flex: 20%;
+    /* flex: 20%; */
     height: 500px;
 }
 * {

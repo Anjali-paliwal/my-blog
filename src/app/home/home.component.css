@@ -4,5 +4,11 @@
 
 body{
     font-family: Arial;
-    margin: 0;
+}
+.parent-div{
+    margin: auto;
+    width: 1200px;
+    padding: 10px;
+    /* position: absolute; */
+
 }

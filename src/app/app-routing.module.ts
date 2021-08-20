@@ -5,7 +5,7 @@ import { SideMainContentComponent } from './side-main-content/side-main-content.
 
 const routes: Routes = [
   {path: '', component: SideMainContentComponent},
-  {path: 'login', component: RegisterUserComponent}
+  //{path: 'login', component: RegisterUserComponent}
 ];
 
 @NgModule({

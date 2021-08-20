@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog,MatDialogRef  } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-register-user',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegisterUserComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialogRef: MatDialogRef<RegisterUserComponent>,
+    private dialog: MatDialog) { }
 
   ngOnInit(): void {
   }
 
+  onClose(){
+    this.dialogRef.close();
+  }
 }
